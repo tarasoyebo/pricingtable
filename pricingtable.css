@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(7, 18, 19);
+}
+.container h2{
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+    color: beige;
+}
+.plans{
+    font-size: 15px;
+    color: grey;
+    padding-top: 0;
+    text-align: center;
+}
+.billing{
+    font-size: 15px;
+    color: grey;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align: center;
+    
+}
+.annual{
+    color: blue;
+}
+.price-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 40px;
+}
+.price-column{
+    background:  #FFFFFF;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: grey;
+    text-align: center;
+}
+.price-column p{
+    font-size: 26px;
+    color: black;
+}
+.price-column h3{
+    font-size: 45px;
+    color: black;
+    margin: 22px 0 44px;
+    font-weight: bolder;
+}
+.price-column h3 span{
+    font-size: 15px;
+}
+.price-column ul{
+    text-align: left;
+    margin: 22px 0px;
+    color: rgb(82, 80, 80)
+}
+.price-column ul li{
+    margin: 18px 0;
+
+}
+.price-column button{
+    width: 100%;
+    padding: 15px 0;
+    background: transparent;
+    color: rgb(82, 80, 80)
+    ;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: background 0.5s;
+
+}
+.price-column button:hover{
+    background: grey;
+}
